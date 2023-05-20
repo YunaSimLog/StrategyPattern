@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Duck.cs" />
     <Compile Include="FlyMode.cs" />
     <Compile Include="Interface\IFlyBehavior.cs" />
     <Compile Include="Interface\IQuackBehavior.cs" />
