@@ -10,6 +10,7 @@ namespace StrategyPattern
     {
         static void Main(string[] args)
         {
+            new RealDuck();
         }
     }
 }

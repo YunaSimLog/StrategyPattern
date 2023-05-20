@@ -8,8 +8,8 @@ namespace StrategyPattern
 {
     public class Duck
     {
-        IFlyBehavior flyBehavior;
-        IQuackBehavior quackBehavior;
+        public IFlyBehavior flyBehavior;
+        public IQuackBehavior quackBehavior;
 
         public void PerformFly()
         {

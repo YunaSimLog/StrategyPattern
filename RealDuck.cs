@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    internal class RealDuck
+    public class RealDuck : Duck
     {
+        public RealDuck()
+        {
+            // 행동 정의
+            flyBehavior = new CanFlyMode();
+            quackBehavior = new Cackle();
+
+            // 행동
+            PerformFly();
+            PerformQuack();
+        }
     }
 }
