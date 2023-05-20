@@ -21,4 +21,12 @@ namespace StrategyPattern
             Console.WriteLine("삑삑");
         }
     }
+
+    public class NoSound : IQuackBehavior
+    {
+        public void Quak()
+        {
+            Console.WriteLine("...");
+        }
+    }
 }
