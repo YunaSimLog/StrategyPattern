@@ -8,6 +8,6 @@ namespace StrategyPattern
 {
     public interface IQuackBehavior
     {
-        void Quak();
+        void Quack();
     }
 }

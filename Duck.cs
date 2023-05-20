@@ -18,7 +18,7 @@ namespace StrategyPattern
 
         public void PerformQuack()
         {
-            quackBehavior.Quak();
+            quackBehavior.Quack();
         }
     }
 }

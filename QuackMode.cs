@@ -8,7 +8,7 @@ namespace StrategyPattern
 {
     public class Cackle : IQuackBehavior
     {
-        public void Quak()
+        public void Quack()
         {
             Console.WriteLine("꽥꽥");
         }
@@ -16,7 +16,7 @@ namespace StrategyPattern
 
     public class BeepBeep : IQuackBehavior
     {
-        public void Quak()
+        public void Quack()
         {
             Console.WriteLine("삑삑");
         }
@@ -24,7 +24,7 @@ namespace StrategyPattern
 
     public class NoSound : IQuackBehavior
     {
-        public void Quak()
+        public void Quack()
         {
             Console.WriteLine("...");
         }
